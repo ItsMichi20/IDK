@@ -1,0 +1,13 @@
+meme_dict = {
+            "CRINGE": "Algo excepcionalmente raro o embarazoso",
+            "LOL": "Una respuesta común a algo gracioso",
+            "caramba": "una expresión",            
+            "xd": "emoji de risa", 
+            ":v": "un emoji :v"}
+while True:
+    word=input("escribe una palabra que tenga la duda de su significado (CON MAYUSCULAS):")
+    if word in meme_dict.keys():
+        print(meme_dict[word])
+    else:
+        significado= input("ingresa su significado de la palabra")
+        meme_dict[word]=significado
